@@ -1,15 +1,15 @@
 # libkv
 
-[![GoDoc](https://godoc.org/github.com/docker/libkv?status.png)](https://godoc.org/github.com/abronan/libkv)
-[![Build Status](https://travis-ci.org/docker/libkv.svg?branch=master)](https://travis-ci.org/abronan/libkv)
-[![Coverage Status](https://coveralls.io/repos/docker/libkv/badge.svg)](https://coveralls.io/r/abronan/libkv)
+[![GoDoc](https://godoc.org/github.com/manvalls/libkv?status.png)](https://godoc.org/github.com/abronan/libkv)
+[![Build Status](https://travis-ci.org/manvalls/libkv.svg?branch=master)](https://travis-ci.org/abronan/libkv)
+[![Coverage Status](https://coveralls.io/repos/manvalls/libkv/badge.svg)](https://coveralls.io/r/abronan/libkv)
 [![Go Report Card](https://goreportcard.com/badge/github.com/abronan/libkv)](https://goreportcard.com/report/github.com/abronan/libkv)
 
 `libkv` provides a `Go` native library to store metadata using Distributed Key/Value stores (or common databases).
 
 The goal of `libkv` is to abstract common store operations (Get/Put/List/etc.) for multiple distributed and/or local Key/Value store backends thus using the same self-contained codebase to manage them all.
 
-This repository is a fork of the [docker/libkv](https://github.com/docker/libkv) project which includes many fixes/additional features and is maintained by an original project maintainer. This project is notably used by [containous/traefik](https://github.com/containous/traefik), [docker/swarm](https://github.com/docker/swarm) and [docker/libnetwork](https://github.com/docker/libnetwork).
+This repository is a fork of the [manvalls/libkv](https://github.com/manvalls/libkv) project which includes many fixes/additional features and is maintained by an original project maintainer. This project is notably used by [containous/traefik](https://github.com/containous/traefik), [docker/swarm](https://github.com/docker/swarm) and [docker/libnetwork](https://github.com/docker/libnetwork).
 
 As of now, `libkv` offers support for `Consul`, `Etcd`, `Zookeeper`, `Redis` (**Distributed** store) and `BoltDB` (**Local** store).
 

@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/coreos/bbolt"
-	"github.com/docker/libkv"
-	"github.com/docker/libkv/store"
+	"github.com/manvalls/libkv"
+	"github.com/manvalls/libkv/store"
 )
 
 var (

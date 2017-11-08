@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/libkv"
-	"github.com/docker/libkv/store"
+	"github.com/manvalls/libkv"
+	"github.com/manvalls/libkv/store"
 
 	"gopkg.in/redis.v5"
 )
